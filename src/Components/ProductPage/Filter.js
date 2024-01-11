@@ -4,6 +4,7 @@ const Filter = () => {
   return (
     <section>
       <div>
+        <h2>FILTERS</h2>
         <h2 className='text-black fw-normal fs-6'>CUSTOMER RATINGS</h2>
         <p>4 & above</p>
         <p>3 & above</p>

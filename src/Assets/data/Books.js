@@ -1,4 +1,70 @@
-export const Books = [
+const Books = [
+  {
+    _id: '64c37c823c03172a9facc073',
+    id: 31,
+    title: 'You are the Best Wife',
+    price: 249,
+    cureted_price: 350,
+    category: 'books',
+    ratings: 4.5,
+    images: [
+      {
+        _id: '651d50b7e2b392999df759e6',
+        url: 'https://rukminim2.flixcart.com/image/612/612/xif0q/book/5/p/j/you-are-the-best-wife-original-imagn5nzxqxq2nah.jpeg?q=70',
+      },
+    ],
+    seller: 'SrishtiPD',
+    replacement: '10 Days Replacement Policy',
+    specificaton: [
+      {
+        author: 'Ajay K Pandey',
+        genre: 'Fiction',
+        format: 'paperback',
+      },
+    ],
+    productDetails: [
+      {
+        packOf: '1',
+        brand: 'TamilPusthakam',
+        Color: 'blue',
+        Type: 'Fiction',
+        ModelName: 'Best_Wife',
+        ModelID: 'Best_Wife',
+        author: 'Ajay K Pandey',
+        genre: 'Fiction',
+        format: 'paperback',
+        Collection: 'love',
+        care: 'Handle with care to maintain book condition',
+      },
+    ],
+    stock: 25,
+    __v: 0,
+    features: [
+      'Practical guide to mindfulness and meditation',
+      'Authored by a meditation expert',
+      'Available in paperback format',
+    ],
+    numrev: 5,
+    rating: 89,
+    reviews: [
+      {
+        user: '63d1089e7ee22fa515771f111',
+        rate: 4.5,
+        Comment:
+          "This book has inspired me alot... Ajay sir and Bhavna mam's love for each other is immortal... it will always remain in the heart of all the readers... 💞💞",
+        date: '2024-05-02T12:30:45.892Z',
+        _id: '64e9d16786e6fe3e932ae731',
+      },
+      {
+        user: '63d1089e7ee22fa515771f112',
+        rate: 4.8,
+        Comment: 'heart touching book. imotinal Ending you may cry.',
+        date: '2024-05-05T09:45:22.892Z',
+        _id: '64e9d16786e6fe3e932ae732',
+      },
+    ],
+    sell: 18,
+  },
   {
     _id: '64c37c823c03172a9facc062',
     id: 20,
@@ -391,67 +457,7 @@ export const Books = [
     ],
     sell: 20,
   },
-  {
-    _id: '64c37c823c03172a9facc073',
-    id: 31,
-    title: 'மொழி நான் - Mozhi Naan',
-    price: 249,
-    cureted_price: 350,
-    category: 'books',
-    ratings: 4.5,
-    images: [
-      {
-        _id: '651d50b7e2b392999df759e6',
-        url: 'https://example.com/images/mozhi_naan_tamil_book.jpg',
-      },
-    ],
-    seller: 'TamilPusthakam',
-    replacement: '10 Days Replacement Policy',
-    specificaton: [
-      {
-        author: 'சுஜாதா',
-        genre: 'கட்டுரை',
-        format: 'பேப்பர்பேக்',
-      },
-    ],
-    productDetails: [
-      {
-        packOf: '1',
-        brand: 'TamilPusthakam',
-        Color: 'வரிசை',
-        Type: 'கட்டுரை',
-        ModelName: 'MOZHI-NAAN',
-        ModelID: 'MOZHI-NAAN',
-        author: 'சுஜாதா',
-        genre: 'கட்டுரை',
-        format: 'பேப்பர்பேக்',
-        Collection: 'தமிழ் கட்டுரைகள்',
-        care: 'புத்தக நிலையை காத்திருக்க கையேடு செய்யவும்',
-      },
-    ],
-    stock: 25,
-    __v: 0,
-    features: ['அரிய தமிழ் கட்டுரை', 'எழுதியவர்: சுஜாதா', 'பேப்பர்பேக் வடிவம்'],
-    numrev: 5,
-    rating: 89,
-    reviews: [
-      {
-        user: '63d1089e7ee22fa515771f111',
-        rate: 4.5,
-        Comment: 'சுஜாதாவின் எழுத்துப் பெருக்கமான கட்டுரை.',
-        date: '2024-05-02T12:30:45.892Z',
-        _id: '64e9d16786e6fe3e932ae731',
-      },
-      {
-        user: '63d1089e7ee22fa515771f112',
-        rate: 4.8,
-        Comment: 'உலகின் சார்மிகர்களுடன் பயணம்.',
-        date: '2024-05-05T09:45:22.892Z',
-        _id: '64e9d16786e6fe3e932ae732',
-      },
-    ],
-    sell: 18,
-  },
+
   {
     _id: '64c37c823c03172a9facc067',
     id: 25,
@@ -528,7 +534,7 @@ export const Books = [
     images: [
       {
         _id: '651d50b7e2b392999df759e1',
-        url: 'https://rukminim2.flixcart.com/image/612/612/k2m6ufk0/sticker/d/y/w/chef-quotes-medium-100-45-lm-213-wallzone-original-imafhxnf6hrg8wm8.jpeg?q=70',
+        url: 'https://rukminim2.flixcart.com/image/612/612/l3j2cnk0/book/v/s/a/-original-imagemu5zjyzkt9u.jpeg?q=70',
       },
     ],
     seller: 'EpicureanPress',
@@ -781,3 +787,5 @@ export const Books = [
     sell: 15,
   },
 ]
+
+export default Books

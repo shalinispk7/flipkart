@@ -1,4 +1,4 @@
-export let Mobile = [
+const Mobile = [
   {
     _id: '64c37c823c03172a9facc087',
     id: 45,
@@ -348,7 +348,7 @@ export let Mobile = [
     images: [
       {
         _id: '651d50b7e2b392999df759fb',
-        url: 'https://rukminim2.flixcart.com/image/312/312/kzogn0w0/mobile/t/2/y/-original-imagbmf26xbmzhk7.jpeg?q=70',
+        url: 'https://rukminim2.flixcart.com/image/312/312/kzogn0w0/mobile/m/p/2/-original-imagbmf4qsurna5j.jpeg?q=70',
       },
     ],
     highlights: '6 GB RAM | 128 GB ROM | 6.4 inch Super AMOLED Display',
@@ -451,3 +451,5 @@ export let Mobile = [
     sell: 18,
   },
 ]
+
+export default Mobile

@@ -1,4 +1,4 @@
-export let Fashion = [
+const Fashion = [
   {
     _id: '64c37c823c03172a9facc075',
     id: 33,
@@ -806,3 +806,4 @@ export let Fashion = [
     sell: 14,
   },
 ]
+export default Fashion

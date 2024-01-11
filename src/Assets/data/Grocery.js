@@ -1,4 +1,4 @@
-export const Grocery = [
+const Grocery = [
   {
     _id: '64c37c823c03172a9facc070',
     id: 28,
@@ -761,3 +761,4 @@ export const Grocery = [
     sell: 28,
   },
 ]
+export default Grocery

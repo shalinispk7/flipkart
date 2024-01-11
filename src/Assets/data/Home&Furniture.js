@@ -1,4 +1,4 @@
-export let HomeAndFurniture = [
+const HomeAndFurniture = [
   {
     _id: '64c37c823c03172a9facc054',
     id: 12,
@@ -73,7 +73,7 @@ export let HomeAndFurniture = [
     images: [
       {
         _id: '651d50b7e2b392999df759d4',
-        url: 'https://rukminim2.flixcart.com/image/416/416/kihfi4w0-0/sofa-cover/e/y/f/pack-of-1-velvet-sofa-cover-blue-blue-by-cozy-living-original-imafx2kydtfgr8uz.jpeg?q=70',
+        url: 'https://rukminim2.flixcart.com/image/612/612/klb78nk0/slipcover/t/m/a/chp-grey-3-seater-nendle-original-imagygfhehktg3gz.jpeg?q=70',
       },
     ],
     seller: 'Cozy Living',
@@ -500,3 +500,5 @@ export let HomeAndFurniture = [
     sell: 20,
   },
 ]
+
+export default HomeAndFurniture
