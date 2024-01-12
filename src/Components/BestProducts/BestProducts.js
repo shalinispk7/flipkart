@@ -4,9 +4,9 @@ import electronic from '../../Assets/img/download.jpeg'
 import books from '../../Assets/img/books.jpeg'
 import phone from '../../Assets/img/phone.jpeg'
 
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import BestProductCard from './BestProductCard'
-import TVandAppliances from '../../Assets/data/TVandAppliances'
+import Grocery from '../../Assets/data/Grocery'
 import Books from '../../Assets/data/Books'
 import Mobile from '../../Assets/data/Mobile'
 import HomeAndFurniture from '../../Assets/data/Home&Furniture'
@@ -14,7 +14,7 @@ import HomeAndFurniture from '../../Assets/data/Home&Furniture'
 const BestProducts = () => {
   return (
     <div className='container'>
-      <Link to={'/productpage'}>
+      <Link to={'/productPage/grocery'}>
         <div className='d-flex row'>
           <div className='w-5 h-5 col-lg-3'>
             <h2 className='text-center fs-4 text-black'>Best of Electronics</h2>
@@ -22,11 +22,13 @@ const BestProducts = () => {
           </div>
           {/* products  */}
           <div className='d-flex col-lg-9 overflow-x-scroll'>
-            {TVandAppliances.map((e, index) => {
+            {Grocery.map((e, index) => {
               return <BestProductCard key={index} value={e} />
             })}
           </div>
         </div>
+      </Link>
+      <Link to={'/productPage/books'}>
         <div className='d-flex row'>
           <div className='w-5 h-5 col-lg-3'>
             <h2 className='text-center fs-4 text-black'>Best of Books</h2>
@@ -39,6 +41,8 @@ const BestProducts = () => {
             })}
           </div>
         </div>
+      </Link>
+      <Link to={'/productPage/mobile'}>
         <div className='d-flex row'>
           <div className='w-5 h-5 col-lg-3'>
             <h2 className='text-center fs-4 text-black'>

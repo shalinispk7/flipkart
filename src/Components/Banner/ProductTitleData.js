@@ -13,34 +13,42 @@ const ProductTitleData = [
   {
     img: grocery,
     name: 'Grocery',
+    category: 'grocery',
   },
   {
     img: mobiles,
     name: 'Mobiles',
+    category: 'mobile',
   },
   {
     img: fashion,
     name: 'Fashion',
+    category: 'fashion',
   },
   {
     img: electronics,
     name: 'Electronics',
+    category: 'electronics',
   },
   {
     img: furniture,
     name: 'Home & Furniture',
+    category: 'furniture',
   },
   {
     img: appliances,
     name: 'TV&Appliances',
+    category: 'appliances',
   },
   {
     img: travel,
     name: 'Flights,Books',
+    category: 'books',
   },
   {
     img: toys,
     name: 'Beauty,Toys&more',
+    category: 'toys',
   },
   {
     img: twowheeler,

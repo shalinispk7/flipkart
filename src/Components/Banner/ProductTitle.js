@@ -1,6 +1,7 @@
 import React from 'react'
 // import './productSection.css'
 import ProductTitleData from './ProductTitleData'
+import { Link } from 'react-router-dom'
 
 const ProductTitle = () => {
   return (
@@ -13,10 +14,12 @@ const ProductTitle = () => {
           {ProductTitleData.map((cv, index) => {
             return (
               <div key={index}>
-                <div>
-                  <img src={cv.img} />
-                </div>
-                <span>{cv.name}</span>
+                <Link to={'/productPage/' + cv.category}>
+                  <div>
+                    <img src={cv.img} />
+                  </div>
+                  <span>{cv.name}</span>
+                </Link>
               </div>
             )
           })}

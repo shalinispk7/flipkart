@@ -10,7 +10,7 @@ const RouterNavigation = () => {
     <>
       <Routes>
         <Route path='/' element={<Home />}></Route>
-        <Route path='/productPage' element={<ProductPage />}></Route>
+        <Route path='/productPage/:category' element={<ProductPage />}></Route>
         <Route path='/seller' element={<Seller />}></Route>
         <Route path='/more' element={<More />}></Route>
         {/* <Route path='/' element={}></Route> */}
