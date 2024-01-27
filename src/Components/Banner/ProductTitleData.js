@@ -33,12 +33,12 @@ const ProductTitleData = [
   {
     img: furniture,
     name: 'Home & Furniture',
-    category: 'furniture',
+    category: 'homeandfurniture',
   },
   {
     img: appliances,
     name: 'TV&Appliances',
-    category: 'appliances',
+    category: 'tv&appliances',
   },
   {
     img: travel,
@@ -48,11 +48,12 @@ const ProductTitleData = [
   {
     img: toys,
     name: 'Beauty,Toys&more',
-    category: 'toys',
+    category: 'Beauty,Toys&more',
   },
   {
     img: twowheeler,
     name: 'Two Wheeler',
+    category: 'twowheelers',
   },
 ]
 

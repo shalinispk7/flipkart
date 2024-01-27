@@ -1,7 +1,9 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
+  const { productsAdded } = useSelector((store) => store.productStore)
   return (
     <section className='bg-primary'>
       <div className='container'>
@@ -60,10 +62,13 @@ const Header = () => {
                 </Link>
               </div>
               <div className='col-lg-2'>
-                <div className='fw-bold fs-5 text-light'>
-                  {/* <img src={cart} className='pe-2' /> */}
-                  Cart<span> ()</span>
-                </div>
+                <Link to={'/cart'}>
+                  <div className='fw-bold fs-5 text-light'>
+                    {/* <img src={cart} className='pe-2' /> */}
+                    Cart
+                    <span> ({Object.keys(productsAdded).length})</span>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

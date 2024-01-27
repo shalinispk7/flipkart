@@ -10,11 +10,12 @@ import Grocery from '../../Assets/data/Grocery'
 import Books from '../../Assets/data/Books'
 import Mobile from '../../Assets/data/Mobile'
 import HomeAndFurniture from '../../Assets/data/Home&Furniture'
+import Electronics from '../../Assets/data/Eletronics'
 
 const BestProducts = () => {
   return (
     <div className='container'>
-      <Link to={'/productPage/grocery'}>
+      <Link to={'/productPage/electronics'}>
         <div className='d-flex row'>
           <div className='w-5 h-5 col-lg-3'>
             <h2 className='text-center fs-4 text-black'>Best of Electronics</h2>
@@ -22,7 +23,7 @@ const BestProducts = () => {
           </div>
           {/* products  */}
           <div className='d-flex col-lg-9 overflow-x-scroll'>
-            {Grocery.map((e, index) => {
+            {Electronics.map((e, index) => {
               return <BestProductCard key={index} value={e} />
             })}
           </div>
