@@ -54,9 +54,17 @@ const productSlice = createSlice({
         },
       }
     },
+    emptyItems: (state, action) => {
+      state.productsAdded = {}
+    },
   },
 })
 
-export const { addItems, removeItems, decreaseItemCount, increaseItemCount } =
-  productSlice.actions
+export const {
+  addItems,
+  removeItems,
+  decreaseItemCount,
+  increaseItemCount,
+  emptyItems,
+} = productSlice.actions
 export default productSlice.reducer

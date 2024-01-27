@@ -7,6 +7,7 @@ import ProductPage from '../ProductPage/ProductPage'
 import ProductDetails from '../ProductDetails/ProductDetails'
 import Cart from '../Cart/Cart'
 import CheckOutOrders from '../Orders/CheckOutOrders'
+import OrderSummary from '../OrderSummary/OrderSummary'
 
 const RouterNavigation = () => {
   return (
@@ -19,6 +20,7 @@ const RouterNavigation = () => {
         <Route path='/productDetails/:id' element={<ProductDetails />}></Route>
         <Route path='/cart' element={<Cart />}></Route>
         <Route path='/checkout' element={<CheckOutOrders />}></Route>
+        <Route path='/orderSummary' element={<OrderSummary />}></Route>
       </Routes>
     </>
   )
