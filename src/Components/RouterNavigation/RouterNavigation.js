@@ -8,19 +8,21 @@ import ProductDetails from '../ProductDetails/ProductDetails'
 import Cart from '../Cart/Cart'
 import CheckOutOrders from '../Orders/CheckOutOrders'
 import OrderSummary from '../OrderSummary/OrderSummary'
+import Login from '../Login/Login'
 
 const RouterNavigation = () => {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/productPage/:category' element={<ProductPage />}></Route>
-        <Route path='/seller' element={<Seller />}></Route>
-        <Route path='/more' element={<More />}></Route>
-        <Route path='/productDetails/:id' element={<ProductDetails />}></Route>
-        <Route path='/cart' element={<Cart />}></Route>
-        <Route path='/checkout' element={<CheckOutOrders />}></Route>
-        <Route path='/orderSummary' element={<OrderSummary />}></Route>
+        <Route path='/' element={<Home />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/productPage/:category' element={<ProductPage />} />
+        <Route path='/seller' element={<Seller />} />
+        <Route path='/more' element={<More />} />
+        <Route path='/productDetails/:id' element={<ProductDetails />} />
+        <Route path='/cart' element={<Cart />} />
+        <Route path='/checkout' element={<CheckOutOrders />} />
+        <Route path='/orderSummary' element={<OrderSummary />} />
       </Routes>
     </>
   )

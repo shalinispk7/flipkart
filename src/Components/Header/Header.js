@@ -1,9 +1,19 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
-import { Link } from 'react-router-dom'
+import { useDispatch, useSelector } from 'react-redux'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { setCurrentPath } from '../../ReduxStore/userSlice'
 
 const Header = () => {
   const { productsAdded } = useSelector((store) => store.productStore)
+  const { userInfo } = useSelector((store) => store.userStore)
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
+  const location = useLocation()
+  const handleLogin = () => {
+    dispatch(setCurrentPath(location.pathname))
+    navigate('/login')
+  }
+
   return (
     <section className='bg-primary'>
       <div className='container'>
@@ -11,7 +21,7 @@ const Header = () => {
           <div className='col-lg-5'>
             <div className='row d-flex align-items-center'>
               <div className='col-lg-3'>
-                <Link to={'/'}>
+                <Link to={'/'} className='text-decoration-none'>
                   <span
                     href='#'
                     className='fs-5 text-white text-decoration-none fw-bold'
@@ -40,13 +50,20 @@ const Header = () => {
           <div className='col-lg-7 text-light text-start'>
             <div className='row'>
               <div className='col-lg-3'>
-                <button className='text-primary border-0 px-3  fs-5 fw-bold d-flex align-items-center'>
-                  {/* <Person className='pe-2 fs-3' /> */}
-                  Login
-                </button>
+                {userInfo ? (
+                  userInfo.displayName
+                ) : (
+                  <button
+                    className='text-primary border-0 px-3  fs-5 fw-bold d-flex align-items-center'
+                    onClick={() => handleLogin()}
+                  >
+                    {/* <Person className='pe-2 fs-3' /> */}
+                    Login
+                  </button>
+                )}
               </div>
               <div className='col-lg-4'>
-                <Link to={'/seller'}>
+                <Link to={'/seller'} className='text-decoration-none'>
                   <h2 className='fw-bold fs-5 text-light '>
                     {/* <InboxFill className='pe-2 fs-3' /> */}
                     Become a Seller
@@ -54,7 +71,7 @@ const Header = () => {
                 </Link>
               </div>
               <div className='col-lg-3'>
-                <Link to={'/more'}>
+                <Link to={'/more'} className='text-decoration-none'>
                   <h2 className='fw-bold fs-5 text-light '>
                     {/* <CaretDownFill className='pe-2 fs-3' /> */}
                     More
@@ -62,7 +79,7 @@ const Header = () => {
                 </Link>
               </div>
               <div className='col-lg-2'>
-                <Link to={'/cart'}>
+                <Link to={'/cart'} className='text-decoration-none'>
                   <div className='fw-bold fs-5 text-light'>
                     {/* <img src={cart} className='pe-2' /> */}
                     Cart

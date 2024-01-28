@@ -14,7 +14,10 @@ const ProductTitle = () => {
           {ProductTitleData.map((cv, index) => {
             return (
               <div key={index}>
-                <Link to={'/productPage/' + cv.category}>
+                <Link
+                  to={'/productPage/' + cv.category}
+                  className='text-decoration-none'
+                >
                   <div>
                     <img src={cv.img} />
                   </div>

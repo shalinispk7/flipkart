@@ -17,7 +17,7 @@ const ProductPage = () => {
         <div className='container '>
           <div className='row'>
             <div className='col-lg-2'>
-              <Filter />
+              <Filter value={category} />
             </div>
 
             <div className='col-lg-10 d-flex flex-wrap bg-light'>

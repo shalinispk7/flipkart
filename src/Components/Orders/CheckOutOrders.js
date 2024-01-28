@@ -1,14 +1,18 @@
 import React, { useState, useCallback, useEffect } from 'react'
 import CartItems from '../Cart/CartItems'
 import useRazorpay from 'react-razorpay'
-import { useNavigate } from 'react-router-dom'
-import { useSelector } from 'react-redux'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { useDispatch, useSelector } from 'react-redux'
 import SuperCoins2 from '../../Assets/img/promotion_banner_v2_inactive_2.webp'
 import Header from '../Header/Header'
+import { setCurrentPath } from '../../ReduxStore/userSlice'
 
 const CheckOutOrder = () => {
   const { productsAdded } = useSelector((store) => store.productStore)
+  const { userInfo } = useSelector((store) => store.userStore)
   const navigate = useNavigate()
+  const dispatch = useDispatch()
+  const location = useLocation()
 
   const [totalAmount, setTotalAmount] = useState({
     total: 0,
@@ -79,7 +83,9 @@ const CheckOutOrder = () => {
             </div>
             {/* address details starts*/}
             <div className='px-4'>
-              <p className='fs-5 fw-normal text-dark'>Shalini</p>
+              <p className='fs-5 fw-normal text-dark'>
+                {userInfo ? userInfo.displayName : 'UserName'}
+              </p>
             </div>
             {/* address details ends*/}
             {/* delivery ends */}
@@ -120,12 +126,24 @@ const CheckOutOrder = () => {
                 </div>
               </div>
               <div className='mt-3 ms-3'>
-                <button
-                  onClick={() => handlePayment()}
-                  className='text-primary fs-5 fw-normal  border border-primary px-4 py-1'
-                >
-                  PayHere
-                </button>
+                {userInfo ? (
+                  <button
+                    onClick={() => handlePayment()}
+                    className='text-primary fs-5 fw-normal  border border-primary px-4 py-1'
+                  >
+                    PayHere
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => {
+                      dispatch(setCurrentPath(location.pathname))
+                      navigate('/login')
+                    }}
+                    className='text-primary fs-5 fw-normal  border border-primary px-4 py-1'
+                  >
+                    Login To Proceed
+                  </button>
+                )}
               </div>
             </div>
             {/* payment option */}

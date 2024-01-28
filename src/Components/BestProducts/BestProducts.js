@@ -15,7 +15,7 @@ import Electronics from '../../Assets/data/Eletronics'
 const BestProducts = () => {
   return (
     <div className='container'>
-      <Link to={'/productPage/electronics'}>
+      <Link to={'/productPage/electronics'} className='text-decoration-none'>
         <div className='d-flex row'>
           <div className='w-5 h-5 col-lg-3'>
             <h2 className='text-center fs-4 text-black'>Best of Electronics</h2>
@@ -29,7 +29,7 @@ const BestProducts = () => {
           </div>
         </div>
       </Link>
-      <Link to={'/productPage/books'}>
+      <Link to={'/productPage/books'} className='text-decoration-none'>
         <div className='d-flex row'>
           <div className='w-5 h-5 col-lg-3'>
             <h2 className='text-center fs-4 text-black'>Best of Books</h2>
@@ -43,7 +43,7 @@ const BestProducts = () => {
           </div>
         </div>
       </Link>
-      <Link to={'/productPage/mobile'}>
+      <Link to={'/productPage/mobile'} className='text-decoration-none'>
         <div className='d-flex row'>
           <div className='w-5 h-5 col-lg-3'>
             <h2 className='text-center fs-4 text-black'>

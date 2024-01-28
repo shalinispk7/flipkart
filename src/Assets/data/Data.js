@@ -337,7 +337,7 @@ const Data = [
     price: 330,
     cureted_price: 360,
     category: 'books',
-    ratings: 4.9,
+    ratings: 2.9,
     images: [
       {
         _id: '651d50b7e2b392999df759de',
@@ -402,7 +402,7 @@ const Data = [
     price: 720,
     cureted_price: 750,
     category: 'books',
-    ratings: 4.6,
+    ratings: 3.6,
     images: [
       {
         _id: '651d50b7e2b392999df759df',
@@ -467,7 +467,7 @@ const Data = [
     price: 2199,
     cureted_price: 3499,
     category: 'books',
-    ratings: 4.7,
+    ratings: 2.7,
     images: [
       {
         _id: '651d50b7e2b392999df759e0',
@@ -728,7 +728,7 @@ const Data = [
     price: 499,
     cureted_price: 699,
     category: 'books',
-    ratings: 4.9,
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df759e5',
@@ -863,7 +863,7 @@ const Data = [
     price: 699,
     cureted_price: 999,
     category: 'fashion',
-    ratings: 4.5,
+    ratings: 3.5,
     images: [
       {
         _id: '651d50b7e2b392999df759e9',
@@ -930,7 +930,7 @@ const Data = [
     price: 799,
     cureted_price: 1199,
     category: 'fashion',
-    ratings: 4.6,
+    ratings: 4.0,
     images: [
       {
         _id: '651d50b7e2b392999df759ea',
@@ -1066,7 +1066,7 @@ const Data = [
     price: 1499,
     cureted_price: 2199,
     category: 'fashion',
-    ratings: 4.8,
+    ratings: 2.8,
     images: [
       {
         _id: '651d50b7e2b392999df759ec',
@@ -1131,7 +1131,7 @@ const Data = [
     price: 799,
     cureted_price: 1199,
     category: 'fashion',
-    ratings: 4.6,
+    ratings: 3.6,
     images: [
       {
         _id: '651d50b7e2b392999df759ed',
@@ -1605,7 +1605,7 @@ const Data = [
     price: 199,
     cureted_price: 299,
     category: 'grocery',
-    ratings: 4.9,
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df759e3',
@@ -1731,7 +1731,7 @@ const Data = [
     price: 670,
     cureted_price: 899,
     category: 'grocery',
-    ratings: 4.8,
+    ratings: 2.8,
     images: [
       {
         _id: '651d50b7e2b392999df759e5',
@@ -1794,7 +1794,7 @@ const Data = [
     price: 299,
     cureted_price: 350,
     category: 'grocery',
-    ratings: 4.6,
+    ratings: 3.6,
     images: [
       {
         _id: '651d50b7e2b392999df759e6',
@@ -1857,7 +1857,7 @@ const Data = [
     price: 349,
     cureted_price: 399,
     category: 'grocery',
-    ratings: 4.5,
+    ratings: 3.5,
     images: [
       {
         _id: '651d50b7e2b392999df759e7',
@@ -1920,7 +1920,7 @@ const Data = [
     price: 529,
     cureted_price: 540,
     category: 'grocery',
-    ratings: 4.8,
+    ratings: 3.8,
     images: [
       {
         _id: '651d50b7e2b392999df759e8',
@@ -2111,7 +2111,7 @@ const Data = [
     price: 349,
     cureted_price: 459,
     category: 'grocery',
-    ratings: 4.9,
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df759eb',
@@ -2176,7 +2176,7 @@ const Data = [
     price: 299,
     cureted_price: 399,
     category: 'grocery',
-    ratings: 4.8,
+    ratings: 3.8,
     images: [
       {
         _id: '651d50b7e2b392999df759ec',
@@ -2302,7 +2302,7 @@ const Data = [
     price: 325,
     cureted_price: 345,
     category: 'grocery',
-    ratings: 4.6,
+    ratings: 2.6,
     images: [
       {
         _id: '651d50b7e2b392999df759ee',
@@ -2551,7 +2551,7 @@ const Data = [
     price: 294,
     cureted_price: 499,
     category: 'homeandfurniture',
-    ratings: 4.6,
+    ratings: 3.6,
     images: [
       {
         _id: '651d50b7e2b392999df759d6',
@@ -2611,7 +2611,7 @@ const Data = [
     price: 59999,
     cureted_price: 89999,
     category: 'homeandfurniture',
-    ratings: 4.7,
+    ratings: 2.7,
     images: [
       {
         _id: '651d50b7e2b392999df759d7',
@@ -2806,7 +2806,7 @@ const Data = [
     price: 399,
     cureted_price: 799,
     category: 'homeandfurniture',
-    ratings: 4.6,
+    ratings: 3.6,
     images: [
       {
         _id: '651d50b7e2b392999df759da',
@@ -2868,6 +2868,7 @@ const Data = [
     title: 'Samsung Galaxy Z Fold 3 5G',
     price: 149999,
     cureted_price: 159999,
+    ratings: 3.5,
     decr: 'Experience the future of smartphones with the Samsung Galaxy Z Fold 3. Unfold the 7.6-inch AMOLED display for a tablet-like experience, or fold it for a compact phone. Packed with powerful features and the latest technology, this device is designed to impress.',
     category: 'mobile',
     images: [
@@ -2924,6 +2925,7 @@ const Data = [
     title: 'Poco X4 Pro 5G',
     price: 24999,
     cureted_price: 27999,
+    ratings: 4.5,
     decr: "Unleash the power of 5G with the Poco X4 Pro. This smartphone features a high-refresh-rate display, a versatile camera setup, and a powerful processor to provide a smooth and immersive user experience. Whether you're gaming, streaming, or capturing moments, the Poco X4 Pro is up for the task.",
     category: 'mobile',
     images: [
@@ -2980,6 +2982,7 @@ const Data = [
     title: 'OnePlus 9 Pro',
     price: 59999,
     cureted_price: 64999,
+    ratings: 3.9,
     decr: 'Experience flagship performance with the OnePlus 9 Pro. This smartphone boasts a stunning display with a high refresh rate, a powerful camera system co-engineered with Hasselblad, and ultra-fast charging capabilities. Elevate your smartphone experience with the OnePlus 9 Pro.',
     category: 'mobile',
     images: [
@@ -3037,6 +3040,7 @@ const Data = [
     title: 'Nothing Phone (2)',
     price: 49999,
     cureted_price: 54999,
+    ratings: 4.5,
     decr: 'Introducing the Nothing Phone X – a revolutionary smartphone that redefines simplicity. Embrace a minimalist design, powerful performance, and a seamless user experience. Nothing Phone X, where less is more.',
     category: 'mobile',
     images: [
@@ -3093,6 +3097,7 @@ const Data = [
     title: 'iPhone 13 Pro Max',
     price: 129999,
     cureted_price: 139999,
+    ratings: 3.5,
     decr: 'Unleash the power of innovation with the iPhone 13 Pro Max. Featuring a ProMotion XDR display, an advanced camera system, and the A15 Bionic chip, this smartphone delivers an unparalleled user experience. Elevate your creativity and capture moments like never before with the iPhone 13 Pro Max.',
     category: 'mobile',
     images: [
@@ -3149,6 +3154,7 @@ const Data = [
     title: 'Redmi Note 11 Pro',
     price: 17999,
     cureted_price: 19999,
+    ratings: 3.5,
     decr: 'Discover excellence with the Redmi Note 11 Pro. Packed with a powerful camera system, a high-refresh-rate display, and a large battery, this smartphone is designed to enhance your mobile experience. Capture stunning photos, enjoy smooth gaming, and stay powered throughout the day with the Redmi Note 11 Pro.',
     category: 'mobile',
     images: [
@@ -3206,6 +3212,7 @@ const Data = [
     title: 'Realme 9 Pro',
     price: 15999,
     cureted_price: 17999,
+    ratings: 3.9,
     decr: "Experience the next level of performance with the Realme 9 Pro. This smartphone features a stunning camera setup, a high-refresh-rate display, and a powerful processor. Whether you're capturing moments or enjoying multimedia, the Realme 9 Pro is designed to deliver a premium experience.",
     category: 'mobile',
     images: [
@@ -3263,6 +3270,7 @@ const Data = [
     title: 'Nokia X30',
     price: 1899,
     cureted_price: 2099,
+    ratings: 3.2,
     decr: 'Rediscover the iconic Nokia experience with the Nokia X30. This smartphone combines classic design with modern features, offering a pure Android experience and reliable performance. Capture memories, enjoy multimedia, and stay connected with the Nokia X30.',
     category: 'mobile',
     images: [
@@ -3662,7 +3670,7 @@ const Data = [
     price: 79999,
     cureted_price: 89999,
     category: 'electronics',
-    ratings: 4.9,
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df75a28',
@@ -3800,7 +3808,7 @@ const Data = [
     price: 2299.99,
     cureted_price: 2499.99,
     category: 'electronics',
-    ratings: 4.9,
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df75a30',
@@ -3868,7 +3876,7 @@ const Data = [
     price: 29999,
     cureted_price: 34999,
     category: 'electronics',
-    ratings: 4.7,
+    ratings: 2.7,
     images: [
       {
         _id: '651d50b7e2b392999df75a31',
@@ -3936,7 +3944,7 @@ const Data = [
     price: 799.99,
     cureted_price: 899.99,
     category: 'electronics',
-    ratings: 4.9,
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df75a32',
@@ -4074,7 +4082,7 @@ const Data = [
     price: 49999,
     cureted_price: 54999,
     category: 'electronics',
-    ratings: 4.9,
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df75a35',
@@ -4212,7 +4220,7 @@ const Data = [
     price: 54.99,
     cureted_price: 64.99,
     category: 'Beauty,Toys&more',
-    ratings: 4.9,
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df75a04',
@@ -4280,7 +4288,7 @@ const Data = [
     price: 119.99,
     cureted_price: 139.99,
     category: 'Beauty,Toys&more',
-    ratings: 4.8,
+    ratings: 2.8,
     images: [
       {
         _id: '651d50b7e2b392999df75a05',
@@ -4348,7 +4356,7 @@ const Data = [
     price: 49.99,
     cureted_price: 59.99,
     category: 'Beauty,Toys&more',
-    ratings: 4.9,
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df75a06',
@@ -4478,7 +4486,7 @@ const Data = [
     price: 5.99,
     cureted_price: 7.99,
     category: 'Beauty,Toys&more',
-    ratings: 4.9,
+    ratings: 2.9,
     images: [
       {
         _id: '651d50b7e2b392999df75a08',
@@ -4544,7 +4552,7 @@ const Data = [
     price: 4.99,
     cureted_price: 6.99,
     category: 'Beauty,Toys&more',
-    ratings: 4.8,
+    ratings: 3.8,
     images: [
       {
         _id: '651d50b7e2b392999df75a09',
@@ -4746,7 +4754,7 @@ const Data = [
     price: 49.99,
     cureted_price: 59.99,
     category: 'Beauty,Toys&more',
-    ratings: 4.8,
+    ratings: 3.8,
     images: [
       {
         _id: '651d50b7e2b392999df75a12',
@@ -4881,7 +4889,7 @@ const Data = [
     price: 19.99,
     cureted_price: 24.99,
     category: 'Beauty,Toys&more',
-    ratings: 4.9,
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df75a14',
@@ -5077,7 +5085,7 @@ const Data = [
     price: 89.99,
     cureted_price: 109.99,
     category: 'tv&appliances',
-    ratings: 4.9,
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df759f4',
@@ -5140,7 +5148,7 @@ const Data = [
     price: 129.99,
     cureted_price: 149.99,
     category: 'tv&appliances',
-    ratings: 4.8,
+    ratings: 2.8,
     images: [
       {
         _id: '651d50b7e2b392999df759f2',
@@ -5204,7 +5212,7 @@ const Data = [
     price: 69.99,
     cureted_price: 79.99,
     category: 'tv&appliances',
-    ratings: 4.7,
+    ratings: 3.7,
     images: [
       {
         _id: '651d50b7e2b392999df759f5',
@@ -5333,7 +5341,7 @@ const Data = [
     price: 12999,
     cureted_price: 14999,
     category: 'tv&appliances',
-    ratings: 4.7,
+    ratings: 3.7,
     images: [
       {
         _id: '651d50b7e2b392999df759f0',
