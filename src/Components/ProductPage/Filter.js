@@ -1,6 +1,11 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { removeRating, setRating } from '../../ReduxStore/filterSlice'
+import {
+  removeDiscount,
+  removeRating,
+  setDiscount,
+  setRating,
+} from '../../ReduxStore/filterSlice'
 
 const Filter = (props) => {
   const dispatch = useDispatch()
@@ -9,6 +14,11 @@ const Filter = (props) => {
     val.target.checked
       ? dispatch(setRating(val.target.value))
       : dispatch(removeRating(val.target.value))
+  }
+  const handleDiscount = (val) => {
+    val.target.checked
+      ? dispatch(setDiscount(val.target.value))
+      : dispatch(removeDiscount(val.target.value))
   }
   return (
     <section>
@@ -62,11 +72,61 @@ const Filter = (props) => {
       </div>
       <div className='mt-5'>
         <h2 className='text-black fw-normal fs-6'>DISCOUNT</h2>
-        <p>50% or more</p>
-        <p>40% or more</p>
-        <p>30% or more</p>
-        <p>20% or more</p>
-        <p>10% or more</p>
+        <div>
+          <input
+            type='checkbox'
+            id='topping'
+            name='topping'
+            value='50'
+            className='me-2'
+            onChange={(e) => handleDiscount(e)}
+          />
+          50% or more
+        </div>
+        <div>
+          <input
+            type='checkbox'
+            id='topping'
+            name='topping'
+            value='40'
+            className='me-2'
+            onChange={(e) => handleDiscount(e)}
+          />
+          40% or more
+        </div>
+        <div>
+          <input
+            type='checkbox'
+            id='topping'
+            name='topping'
+            value='30'
+            className='me-2'
+            onChange={(e) => handleDiscount(e)}
+          />
+          30% or more
+        </div>
+        <div>
+          <input
+            type='checkbox'
+            id='topping'
+            name='topping'
+            value='20'
+            className='me-2'
+            onChange={(e) => handleDiscount(e)}
+          />
+          20% or more
+        </div>
+        <div>
+          <input
+            type='checkbox'
+            id='topping'
+            name='topping'
+            value='10'
+            className='me-2'
+            onChange={(e) => handleDiscount(e)}
+          />
+          10% or more
+        </div>
       </div>
     </section>
   )
