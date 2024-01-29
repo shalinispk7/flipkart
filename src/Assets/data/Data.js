@@ -23,6 +23,7 @@ const Data = [
         author: 'Ajay K Pandey',
         genre: 'Fiction',
         format: 'paperback',
+        type: 'Fiction book',
       },
     ],
     productDetails: [
@@ -90,6 +91,7 @@ const Data = [
         author: 'Emma L. Archer',
         genre: 'Mystery',
         format: 'Paperback',
+        type: 'Mystery',
       },
     ],
     productDetails: [
@@ -155,6 +157,7 @@ const Data = [
         author: 'Jason A. Starlight',
         genre: 'Sci-Fi',
         format: 'Hardcover',
+        type: 'Fiction book',
       },
     ],
     productDetails: [
@@ -220,6 +223,7 @@ const Data = [
         author: 'Sudha Murthy',
         genre: 'Non-Fiction',
         format: 'Paperback',
+        type: 'Non-Fiction book',
       },
     ],
     productDetails: [
@@ -286,6 +290,7 @@ const Data = [
         author: 'Isabella Moonlight',
         genre: 'Fantasy',
         format: 'Paperback',
+        type: 'Fantasy book',
       },
     ],
     productDetails: [
@@ -351,6 +356,7 @@ const Data = [
         author: 'Alex Coder',
         genre: 'Technology',
         format: 'Hardcover',
+        type: 'Technology book',
       },
     ],
     productDetails: [
@@ -416,6 +422,7 @@ const Data = [
         author: 'Elena Tranquil',
         genre: 'Self-Help',
         format: 'Paperback',
+        type: 'Self-Help book',
       },
     ],
     productDetails: [
@@ -481,6 +488,7 @@ const Data = [
         author: 'Dr. Alan Quantum',
         genre: 'Science',
         format: 'Hardcover',
+        type: 'Science book',
       },
     ],
     productDetails: [
@@ -546,6 +554,7 @@ const Data = [
         author: 'Chef Isabella Gourmet',
         genre: 'Cooking',
         format: 'Hardcover',
+        type: 'Cooking book',
       },
     ],
     productDetails: [
@@ -612,6 +621,7 @@ const Data = [
         author: 'Dr. Celeste Astronomer',
         genre: 'Science',
         format: 'Paperback',
+        type: 'Science book',
       },
     ],
     productDetails: [
@@ -677,6 +687,7 @@ const Data = [
         author: 'Sudha Murthy',
         genre: "Children's Fiction",
         format: 'Hardcover',
+        type: 'Children Fiction book',
       },
     ],
     productDetails: [
@@ -742,6 +753,7 @@ const Data = [
         author: 'Prof. A. Mathison',
         genre: 'Academic',
         format: 'Hardcover',
+        type: 'Academic book',
       },
     ],
     productDetails: [
@@ -811,7 +823,7 @@ const Data = [
         color: 'Blue',
         size: 'M',
         brand: 'FashionRise',
-        fit: 'Regular Fit',
+        type: 'Regular Fit',
       },
     ],
     productDetails: [
@@ -878,7 +890,7 @@ const Data = [
         color: 'Khaki',
         size: '32',
         brand: 'TrendSetter',
-        fit: 'Slim Fit',
+        type: 'Slim Fit',
       },
     ],
     productDetails: [
@@ -945,7 +957,7 @@ const Data = [
         color: 'Blue',
         size: '34',
         brand: 'StyleMasters',
-        fit: 'Regular Fit',
+        type: 'Regular Fit',
       },
     ],
     productDetails: [
@@ -1012,7 +1024,7 @@ const Data = [
         color: 'Heather Gray',
         size: 'L',
         brand: 'FashionEase',
-        fit: 'Regular Fit',
+        type: 'Regular Fit',
       },
     ],
     productDetails: [
@@ -1080,7 +1092,7 @@ const Data = [
         material: 'Silk',
         color: 'Royal Blue',
         brand: 'EthnicCrafts',
-        design: 'Traditional Zari Border',
+        type: 'Traditional Zari Border',
       },
     ],
     productDetails: [
@@ -1146,7 +1158,7 @@ const Data = [
         color: 'Multicolor',
         size: 'XL',
         brand: 'EthnicTrends',
-        style: 'Floral Print',
+        type: 'Floral Print',
       },
     ],
     productDetails: [
@@ -1213,7 +1225,7 @@ const Data = [
         color: 'Peach',
         size: 'L',
         brand: 'TrendyEthnics',
-        embroidery: 'Golden Thread Work',
+        type: 'Golden Thread Work',
       },
     ],
     productDetails: [
@@ -1280,7 +1292,7 @@ const Data = [
         color: 'Black',
         size: 'M',
         brand: 'Fashionista',
-        fit: 'Skinny Fit',
+        type: 'Skinny Fit',
       },
     ],
     productDetails: [
@@ -1349,7 +1361,7 @@ const Data = [
         color: 'Pink',
         size: '4-5 Years',
         brand: 'CuteStyles',
-        pattern: 'Floral Print',
+        type: 'Floral Print',
       },
     ],
     productDetails: [
@@ -1416,7 +1428,7 @@ const Data = [
         color: 'Blue',
         size: '6-7 Years',
         brand: 'PartyPrincess',
-        design: 'Sequin Embellishments',
+        type: 'Sequin Embellishments',
       },
     ],
     productDetails: [
@@ -1483,7 +1495,7 @@ const Data = [
         color: 'Red/Blue',
         size: '8-9 Years',
         brand: 'CoolKids',
-        style: 'Sporty Casual',
+        type: 'Sporty Casual',
       },
     ],
     productDetails: [
@@ -1550,7 +1562,7 @@ const Data = [
         color: 'White/Gold',
         size: '10-11 Years',
         brand: 'EthnicWonders',
-        style: 'Traditional Ethnic',
+        type: 'Traditional Ethnic',
       },
     ],
     productDetails: [
@@ -1805,7 +1817,7 @@ const Data = [
     replacement: '14 Days Replacement Policy',
     specificaton: [
       {
-        flavor: 'Spicy Jalapeño',
+        type: 'Spicy Jalapeño',
         packaging: 'Resealable Pouch',
       },
     ],
@@ -1868,7 +1880,7 @@ const Data = [
     replacement: '14 Days Replacement Policy',
     specificaton: [
       {
-        flavor: 'Sea Salt & Vinegar',
+        type: 'Sea Salt & Vinegar',
         packaging: 'Foil Bag',
       },
     ],
@@ -1931,7 +1943,7 @@ const Data = [
     replacement: '14 Days Replacement Policy',
     specificaton: [
       {
-        blend: 'Tropical Paradise',
+        type: 'Tropical Paradise',
         packaging: 'Bottle',
       },
     ],
@@ -2379,7 +2391,7 @@ const Data = [
     replacement: '7 Days of Return Policy',
     specificaton: [
       {
-        fits: 'Regular',
+        type: 'Regular',
         size: 'M',
       },
     ],
@@ -2402,7 +2414,7 @@ const Data = [
 
     stock: 1,
     __v: 1,
-    features: [],
+    features: 'elastic fitted bedsheet, bedsheet Double size',
     numrev: 2,
     rating: 95,
     reviews: [
@@ -2441,7 +2453,7 @@ const Data = [
     replacement: '15 Days Replacement Policy',
     specificaton: [
       {
-        fits: 'Regular',
+        type: 'Regular',
         size: '3 Seater',
       },
     ],
@@ -2463,7 +2475,7 @@ const Data = [
     ],
     stock: 5,
     __v: 0,
-    features: [],
+    features: 'velvet sofa cover, sofa cover 3 seater',
     numrev: 5,
     rating: 90,
     reviews: [
@@ -2503,7 +2515,7 @@ const Data = [
     specificaton: [
       {
         material: 'Aluminum',
-        coating: 'Non-Stick',
+        type: 'Non-Stick Aluminium',
         pieces: 12,
       },
     ],
@@ -2523,7 +2535,7 @@ const Data = [
     ],
     stock: 8,
     __v: 0,
-    features: [],
+    features: 'MODERN-NON-STICK COOKWARE-SET,',
     numrev: 8,
     rating: 96,
     reviews: [
@@ -2563,7 +2575,7 @@ const Data = [
     specificaton: [
       {
         weightRange: '5-25 lbs per dumbbell',
-        material: 'Cast Iron',
+        type: 'Cast Iron',
       },
     ],
     productDetails: [
@@ -2625,6 +2637,7 @@ const Data = [
         resolution: '1080p HD',
         nightVision: 'Yes',
         numberofCameras: 4,
+        type: 'SmartTech',
       },
     ],
     productDetails: [
@@ -2691,6 +2704,7 @@ const Data = [
         capacity: '2 Persons',
         season: '3-Season',
         weight: '4.5 lbs',
+        type: 'Outdoor Adventure',
       },
     ],
     productDetails: [
@@ -2754,7 +2768,7 @@ const Data = [
     replacement: '30 Days Replacement Policy',
     specificaton: [
       {
-        playback: 'Vinyl, Bluetooth',
+        type: 'Vinyl, Bluetooth',
         speeds: '33 1/3, 45, 78 RPM',
       },
     ],
@@ -2818,6 +2832,7 @@ const Data = [
     specificaton: [
       {
         coffeeTypes: ['Espresso', 'Medium Roast', 'Decaf'],
+        type: 'Gift Set',
       },
     ],
     productDetails: [
@@ -2886,7 +2901,7 @@ const Data = [
         inTheBox: 'Handset, Charger, USB Cable, SIM Ejector Pin, User Manual',
         modelNumber: 'SM-F926BZKD',
         modelName: 'Galaxy Z Fold 3 5G',
-        color: 'Phantom Black',
+        type: 'Phantom Black',
         batteryCapacity: '4400mAh',
       },
     ],
@@ -2943,7 +2958,7 @@ const Data = [
         inTheBox: 'Handset, Charger, USB Cable, SIM Ejector Pin, User Manual',
         modelNumber: 'M2013J19PI',
         modelName: 'X4 Pro 5G',
-        color: 'Fantasy Black',
+        type: 'Fantasy Black',
         batteryCapacity: '5160mAh',
       },
     ],
@@ -3001,7 +3016,7 @@ const Data = [
           'Handset, Warp Charge 65 Power Adapter, Warp Charge Type-C to Type-C Cable, Quick Start Guide, Welcome Letter, Safety Information, Warranty Card, SIM Tray Ejector',
         modelNumber: 'LE2123',
         modelName: '9 Pro',
-        color: 'Morning Mist',
+        type: 'Morning Mist',
         batteryCapacity: '4500mAh',
       },
     ],
@@ -3058,7 +3073,7 @@ const Data = [
         inTheBox: 'Handset, Charger, USB Cable, SIM Ejector Pin, User Manual',
         modelNumber: 'NPX2025',
         modelName: 'Phone X',
-        color: 'Lunar White',
+        type: 'Lunar White',
         batteryCapacity: '4500mAh',
       },
     ],
@@ -3115,7 +3130,7 @@ const Data = [
         inTheBox: 'iPhone, USB-C to Lightning Cable, Documentation',
         modelNumber: 'MLLH3HN/A',
         modelName: 'iPhone 13 Pro Max',
-        color: 'Graphite',
+        type: 'Graphite',
         batteryCapacity: '4352mAh',
       },
     ],
@@ -3173,7 +3188,7 @@ const Data = [
           'Handset, Power Adapter, USB Type-C Cable, SIM Ejector Pin, Soft Case, User Manual',
         modelNumber: 'M2013K6G',
         modelName: 'Note 11 Pro',
-        color: 'Celestial Blue',
+        type: 'Celestial Blue',
         batteryCapacity: '5020mAh',
       },
     ],
@@ -3231,7 +3246,7 @@ const Data = [
           'Handset, Adapter, USB Type-C Cable, SIM Card Tool, Case, Quick Guide, Warranty Card',
         modelNumber: 'RMX3381',
         modelName: '9 Pro',
-        color: 'Lightning Blue',
+        type: 'Lightning Blue',
         batteryCapacity: '4500mAh',
       },
     ],
@@ -3288,7 +3303,7 @@ const Data = [
         inTheBox: 'Nokia X30, Charger, USB Cable, Headset, Quick Guide',
         modelNumber: 'TA-2023',
         modelName: 'X30',
-        color: 'Midnight Blue',
+        type: 'Midnight Blue',
         batteryCapacity: '5000mAh',
       },
     ],
@@ -3343,7 +3358,7 @@ const Data = [
       {
         screenSize: '65 inches',
         resolution: '4K Ultra HD',
-        smartFeatures: 'Android TV, Voice Assistant, Streaming Apps',
+        type: 'Android TV, Voice Assistant, Streaming Apps',
       },
     ],
     productDetails: [
@@ -3412,7 +3427,7 @@ const Data = [
         ram: '16GB',
         storage: '512GB SSD',
         displaySize: '13 inches',
-        operatingSystem: 'macOS Monterey',
+        type: 'macOS Monterey',
       },
     ],
     productDetails: [
@@ -3480,7 +3495,7 @@ const Data = [
     specificaton: [
       {
         displaySize: '46mm',
-        connectivity: 'Bluetooth',
+        type: 'Bluetooth',
         healthFeatures: 'Heart Rate Monitor, Blood Pressure Monitor, ECG',
       },
     ],
@@ -3548,7 +3563,7 @@ const Data = [
         wireless: true,
         noiseCancelling: true,
         batteryLife: 'Up to 24 hours',
-        connectivity: 'Bluetooth',
+        type: 'Bluetooth',
       },
     ],
     productDetails: [
@@ -3616,7 +3631,7 @@ const Data = [
         screenSize: '65 inches',
         displayType: 'OLED',
         resolution: '4K Ultra HD',
-        smartFeatures: 'Google TV, Voice Remote',
+        type: 'Google TV, Voice Remote',
       },
     ],
     productDetails: [
@@ -3684,7 +3699,7 @@ const Data = [
         flightTime: '34 minutes',
         cameraResolution: '48 MP',
         maxRange: '10 km',
-        intelligentModes: 'SmartPhoto, FocusTrack, APAS 4.0',
+        type: 'SmartPhoto, FocusTrack, APAS 4.0',
       },
     ],
     productDetails: [
@@ -3754,6 +3769,7 @@ const Data = [
         resolution: '2560 x 1440',
         refreshRate: '240 Hz',
         responseTime: '1 ms',
+        type: 'GamingTechHub',
       },
     ],
     productDetails: [
@@ -3823,6 +3839,7 @@ const Data = [
         processor: 'M2 Pro Chip',
         RAM: '32 GB',
         storage: '1 TB SSD',
+        type: 'AppleStore',
       },
     ],
     productDetails: [
@@ -4164,7 +4181,7 @@ const Data = [
     replacement: '30 Days Replacement Policy',
     specificaton: [
       {
-        skinType: 'All Skin Types',
+        type: 'All Skin Types',
         benefits: 'Anti-Aging, Hydrating, Firming',
         size: '1.7 oz (50ml)',
       },
@@ -4231,7 +4248,7 @@ const Data = [
     replacement: '30 Days Replacement Policy',
     specificaton: [
       {
-        shadeType: 'Neutral Rose Tones',
+        type: 'Neutral Rose Tones',
         finish: 'Matte, Shimmer',
         size: '12 x 0.05 oz (1.3g)',
       },
@@ -4302,6 +4319,7 @@ const Data = [
         ageGroup: '16+',
         pieces: 1334,
         dimensions: '11 x 5 x 5 inches',
+        type: 'ToyEmporium',
       },
     ],
     productDetails: [
@@ -4368,7 +4386,7 @@ const Data = [
     specificaton: [
       {
         ageGroup: '0-36 months',
-        features: 'Kick and Play piano, detachable toys, machine-washable mat',
+        type: 'Kick and Play piano, detachable toys, machine-washable mat',
       },
     ],
     productDetails: [
@@ -4431,7 +4449,7 @@ const Data = [
     replacement: '30 Days Replacement Policy',
     specificaton: [
       {
-        brushMode: 'Daily Clean',
+        type: 'Daily Clean',
         pressureSensor: true,
         timer: true,
       },
@@ -4497,7 +4515,7 @@ const Data = [
     replacement: '30 Days Replacement Policy',
     specificaton: [
       {
-        ageGroup: 'Newborn and Up',
+        type: 'Newborn and Up',
         hypoallergenic: true,
         noMoreTears: true,
       },
@@ -4563,7 +4581,7 @@ const Data = [
     replacement: '30 Days Replacement Policy',
     specificaton: [
       {
-        skinType: 'Sensitive',
+        type: 'Sensitive',
         fragrance: 'Unscented',
         moisturizing: true,
       },
@@ -4630,7 +4648,7 @@ const Data = [
     replacement: '30 Days Replacement Policy',
     specificaton: [
       {
-        hairType: 'All Hair Types',
+        type: 'All Hair Types',
         usage: 'Leave-in treatment',
         benefits: 'Frizz control, shine enhancement, and conditioning',
       },
@@ -4697,7 +4715,7 @@ const Data = [
     replacement: '30 Days Replacement Policy',
     specificaton: [
       {
-        lipstickType: 'Matte',
+        type: 'Matte',
         shade: 'Ruby Woo',
         finish: 'Intense color payoff',
       },
@@ -4765,7 +4783,7 @@ const Data = [
     replacement: '30 Days Replacement Policy',
     specificaton: [
       {
-        paletteType: 'Eyeshadow',
+        type: 'Eyeshadow',
         shadeRange: 'Neutral Rosy Tones',
         finish: 'Matte and Shimmer',
       },
@@ -4832,7 +4850,7 @@ const Data = [
     replacement: '30 Days Replacement Policy',
     specificaton: [
       {
-        skinType: 'Normal to Dry',
+        type: 'Normal to Dry',
         formulation: 'Non-foaming Cream',
         keyIngredients: ['Ceramides', 'Hyaluronic Acid'],
       },
@@ -4900,7 +4918,7 @@ const Data = [
     replacement: '30 Days Replacement Policy',
     specificaton: [
       {
-        material: 'Wood',
+        type: 'Wood',
         numberofPieces: 48,
         recommendedAge: '3 years and up',
       },
@@ -5483,7 +5501,7 @@ const Data = [
     replacement: '30 Days Replacement Policy',
     specificaton: [
       {
-        displayType: 'IPS LED',
+        type: 'IPS LED',
         size: '27 inches',
         resolution: '2560 x 1440 pixels',
         refreshRate: '60Hz',
@@ -5551,7 +5569,7 @@ const Data = [
     replacement: '14 Days Replacement Policy',
     specificaton: [
       {
-        processor: 'Intel Core i5',
+        type: 'Intel Core i5',
         ram: '8GB DDR4',
         storage: '256GB SSD',
         display: '14-inch Full HD IPS Touchscreen',
@@ -5621,7 +5639,7 @@ const Data = [
     replacement: '14 Days Replacement Policy',
     specificaton: [
       {
-        connectionType: 'Wireless (Bluetooth/RF)',
+        type: 'Wireless (Bluetooth/RF)',
         keyboardLayout: 'Full-size',
         mouseDPI: '1000',
         batteryLife: 'Up to 3 years for keyboard, 2 years for mouse',
@@ -5689,7 +5707,7 @@ const Data = [
     replacement: '14 Days Replacement Policy',
     specificaton: [
       {
-        connectionType: 'Wireless Bluetooth',
+        type: 'Wireless Bluetooth',
         noiseCancellation: 'Yes',
         batteryLife: 'Up to 30 hours',
         driverSize: '40mm',
@@ -5760,7 +5778,7 @@ const Data = [
     replacement: '7 Days Replacement Policy',
     specificaton: [
       {
-        engineType: 'Parallel Twin',
+        type: 'Parallel Twin',
         mileage: '25 km/l',
         maxPower: '47.5 bhp @ 8,500 rpm',
         maxTorque: '43.2 Nm @ 7,000 rpm',
@@ -5828,7 +5846,7 @@ const Data = [
     replacement: '7 Days Replacement Policy',
     specificaton: [
       {
-        engineType: 'Single Cylinder',
+        type: 'Single Cylinder',
         mileage: '35 km/l',
         maxPower: '20.07 bhp @ 5,250 rpm',
         maxTorque: '28 Nm @ 4,000 rpm',
@@ -5896,7 +5914,7 @@ const Data = [
     replacement: '7 Days Replacement Policy',
     specificaton: [
       {
-        engineType: 'Single Cylinder',
+        type: 'Single Cylinder',
         mileage: '55 km/l',
         maxPower: '7.81 bhp @ 7,500 rpm',
         maxTorque: '8.8 Nm @ 5,500 rpm',
@@ -5965,7 +5983,7 @@ const Data = [
     replacement: '7 Days Replacement Policy',
     specificaton: [
       {
-        engineType: 'Single Cylinder, 4-Stroke, SOHC, 4-Valve',
+        type: 'Single Cylinder, 4-Stroke, SOHC, 4-Valve',
         mileage: '35 km/l',
         maxPower: '24.5 bhp @ 9,750 rpm',
         maxTorque: '18.5 Nm @ 8,000 rpm',
@@ -6034,7 +6052,7 @@ const Data = [
     replacement: '7 Days Replacement Policy',
     specificaton: [
       {
-        engineType: 'Single Cylinder, 4-Stroke, SI Engine',
+        type: 'Single Cylinder, 4-Stroke, SI Engine',
         mileage: '60 km/l',
         maxPower: '7.68 bhp @ 8,000 rpm',
         maxTorque: '8.79 Nm @ 5,250 rpm',
@@ -6103,7 +6121,7 @@ const Data = [
     replacement: '7 Days Replacement Policy',
     specificaton: [
       {
-        engineType: 'Single Cylinder, 4-Stroke, CVTi, BS6 Compliant',
+        type: 'Single Cylinder, 4-Stroke, CVTi, BS6 Compliant',
         mileage: '50 km/l',
         maxPower: '7.3 bhp @ 7,000 rpm',
         maxTorque: '8.4 Nm @ 5,500 rpm',
@@ -6172,7 +6190,7 @@ const Data = [
     replacement: '7 Days Replacement Policy',
     specificaton: [
       {
-        engineType: '4-Stroke, 1-Cylinder, Air-cooled',
+        type: '4-Stroke, 1-Cylinder, Air-cooled',
         mileage: '55 km/l',
         maxPower: '8.6 bhp @ 6,750 rpm',
         maxTorque: '10 Nm @ 5,500 rpm',
@@ -6241,7 +6259,7 @@ const Data = [
     replacement: '7 Days Replacement Policy',
     specificaton: [
       {
-        engineType: 'Single Cylinder, 4-Stroke, SOHC, 2-Valve',
+        etype: 'Single Cylinder, 4-Stroke, SOHC, 2-Valve',
         mileage: '50 km/l',
         maxPower: '12.2 bhp @ 7,250 rpm',
         maxTorque: '13.6 Nm @ 5,500 rpm',

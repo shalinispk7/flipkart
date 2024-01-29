@@ -21,7 +21,7 @@ const BestProducts = () => {
             <h2 className='text-center fs-4 text-black'>Best of Electronics</h2>
             <img src={electronic} />
           </div>
-          {/* products  */}
+
           <div className='d-flex col-lg-9 overflow-x-scroll'>
             {Electronics.map((e, index) => {
               return <BestProductCard key={index} value={e} />
@@ -51,7 +51,7 @@ const BestProducts = () => {
             </h2>
             <img src={phone} />
           </div>
-          {/* products  */}
+
           <div className='d-flex col-lg-9 overflow-x-scroll'>
             {Mobile.map((e, index) => {
               return <BestProductCard key={index} value={e} />

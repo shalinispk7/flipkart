@@ -10,6 +10,9 @@ import CheckOutOrders from '../Orders/CheckOutOrders'
 import OrderSummary from '../OrderSummary/OrderSummary'
 import Login from '../Login/Login'
 import WishList from '../WishList/WishList'
+import PlusZone from '../Header/PlusZone'
+import GiftCard from '../Header/GiftCard'
+import Coupons from '../Header/Coupons'
 
 const RouterNavigation = () => {
   return (
@@ -20,6 +23,9 @@ const RouterNavigation = () => {
         <Route path='/productPage/:category' element={<ProductPage />} />
         <Route path='/seller' element={<Seller />} />
         <Route path='/more' element={<More />} />
+        <Route path='/plusZone' element={<PlusZone />} />
+        <Route path='/giftCard' element={<GiftCard />} />
+        <Route path='/coupons' element={<Coupons />} />
         <Route path='/productDetails/:id' element={<ProductDetails />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/checkout' element={<CheckOutOrders />} />

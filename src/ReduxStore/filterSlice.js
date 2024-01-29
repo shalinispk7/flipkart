@@ -6,6 +6,7 @@ const filterSlice = createSlice({
     rating: [],
     discount: [],
     sortBy: '',
+    searchText: '',
   },
   reducers: {
     setRating: (state, action) => {
@@ -16,7 +17,7 @@ const filterSlice = createSlice({
       state.rating = state.rating.filter((e) => e != action.payload)
     },
     setDiscount: (state, action) => {
-      const prev = state.rating || [] // Access previous state value
+      const prev = state.discount || [] // Access previous state value
       state.discount = [...prev, parseInt(action.payload)]
     },
     removeDiscount: (state, action) => {
@@ -24,6 +25,9 @@ const filterSlice = createSlice({
     },
     setSortBy: (state, action) => {
       state.sortBy = action.payload
+    },
+    setSearchText: (state, action) => {
+      state.searchText = action.payload
     },
   },
 })
@@ -34,5 +38,6 @@ export const {
   setDiscount,
   removeDiscount,
   setSortBy,
+  setSearchText,
 } = filterSlice.actions
 export default filterSlice.reducer

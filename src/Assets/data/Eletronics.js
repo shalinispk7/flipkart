@@ -5,7 +5,7 @@ const Electronics = [
     title: 'Sony 65-inch 4K Ultra HD Smart LED TV',
     price: 149999,
     cureted_price: 169999,
-    category: 'tv&appliances',
+    category: 'electronics',
     ratings: 4.7,
     images: [
       {
@@ -19,7 +19,7 @@ const Electronics = [
       {
         screenSize: '65 inches',
         resolution: '4K Ultra HD',
-        smartFeatures: 'Android TV, Voice Assistant, Streaming Apps',
+        type: 'Android TV, Voice Assistant, Streaming Apps',
       },
     ],
     productDetails: [
@@ -72,7 +72,7 @@ const Electronics = [
     title: 'Apple MacBook Pro 13-inch (M2 Chip, 16GB RAM, 512GB SSD)',
     price: 199999,
     cureted_price: 219999,
-    category: 'tv&appliances',
+    category: 'electronics',
     ratings: 4.9,
     images: [
       {
@@ -88,7 +88,7 @@ const Electronics = [
         ram: '16GB',
         storage: '512GB SSD',
         displaySize: '13 inches',
-        operatingSystem: 'macOS Monterey',
+        type: 'macOS Monterey',
       },
     ],
     productDetails: [
@@ -143,7 +143,7 @@ const Electronics = [
     title: 'Samsung Galaxy Watch 4 Classic (46mm, Bluetooth)',
     price: 29999,
     cureted_price: 34999,
-    category: 'tv&appliances',
+    category: 'electronics',
     ratings: 4.8,
     images: [
       {
@@ -156,7 +156,7 @@ const Electronics = [
     specificaton: [
       {
         displaySize: '46mm',
-        connectivity: 'Bluetooth',
+        type: 'Bluetooth',
         healthFeatures: 'Heart Rate Monitor, Blood Pressure Monitor, ECG',
       },
     ],
@@ -209,7 +209,7 @@ const Electronics = [
     title: 'Bose QuietComfort 45 Wireless Noise Cancelling Headphones',
     price: 3499,
     cureted_price: 3999,
-    category: 'tv&appliances',
+    category: 'electronics',
     ratings: 4.9,
     images: [
       {
@@ -224,7 +224,7 @@ const Electronics = [
         wireless: true,
         noiseCancelling: true,
         batteryLife: 'Up to 24 hours',
-        connectivity: 'Bluetooth',
+        type: 'Bluetooth',
       },
     ],
     productDetails: [
@@ -277,7 +277,7 @@ const Electronics = [
     title: 'Sony BRAVIA XR A90J 65-inch OLED 4K Ultra HD Smart Google TV',
     price: 249999,
     cureted_price: 279999,
-    category: 'tv&appliances',
+    category: 'electronics',
     ratings: 4.7,
     images: [
       {
@@ -292,7 +292,7 @@ const Electronics = [
         screenSize: '65 inches',
         displayType: 'OLED',
         resolution: '4K Ultra HD',
-        smartFeatures: 'Google TV, Voice Remote',
+        type: 'Google TV, Voice Remote',
       },
     ],
     productDetails: [
@@ -345,8 +345,8 @@ const Electronics = [
     title: 'DJI Mavic Air 2 - Drone Quadcopter UAV',
     price: 79999,
     cureted_price: 89999,
-    category: 'tv&appliances',
-    ratings: 4.9,
+    category: 'electronics',
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df75a28',
@@ -360,7 +360,7 @@ const Electronics = [
         flightTime: '34 minutes',
         cameraResolution: '48 MP',
         maxRange: '10 km',
-        intelligentModes: 'SmartPhoto, FocusTrack, APAS 4.0',
+        type: 'SmartPhoto, FocusTrack, APAS 4.0',
       },
     ],
     productDetails: [
@@ -414,7 +414,7 @@ const Electronics = [
     title: 'Samsung Odyssey G7 32-inch Curved Gaming Monitor',
     price: 69999,
     cureted_price: 79999,
-    category: 'tv&appliances',
+    category: 'electronics',
     ratings: 4.8,
     images: [
       {
@@ -430,6 +430,7 @@ const Electronics = [
         resolution: '2560 x 1440',
         refreshRate: '240 Hz',
         responseTime: '1 ms',
+        type: 'GamingTechHub',
       },
     ],
     productDetails: [
@@ -483,8 +484,8 @@ const Electronics = [
     title: 'Apple MacBook Pro 16-inch with M2 Pro Chip',
     price: 2299.99,
     cureted_price: 2499.99,
-    category: 'tv&appliances',
-    ratings: 4.9,
+    category: 'electronics',
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df75a30',
@@ -499,6 +500,7 @@ const Electronics = [
         processor: 'M2 Pro Chip',
         RAM: '32 GB',
         storage: '1 TB SSD',
+        type: 'AppleStore',
       },
     ],
     productDetails: [
@@ -551,8 +553,8 @@ const Electronics = [
     title: 'Sony WH-1000XM4 Wireless Noise-Canceling Headphones',
     price: 29999,
     cureted_price: 34999,
-    category: 'tv&appliances',
-    ratings: 4.7,
+    category: 'electronics',
+    ratings: 2.7,
     images: [
       {
         _id: '651d50b7e2b392999df75a31',
@@ -619,8 +621,8 @@ const Electronics = [
     title: 'DJI Mavic Air 2 Drone',
     price: 799.99,
     cureted_price: 899.99,
-    category: 'tv&appliances',
-    ratings: 4.9,
+    category: 'electronics',
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df75a32',
@@ -688,7 +690,7 @@ const Electronics = [
     title: 'Bose QuietComfort 35 II Wireless Noise-Canceling Headphones',
     price: 27999,
     cureted_price: 32999,
-    category: 'tv&appliances',
+    category: 'electronics',
     ratings: 4.9,
     images: [
       {
@@ -757,8 +759,8 @@ const Electronics = [
     title: 'Sony PlayStation 5 Gaming Console',
     price: 49999,
     cureted_price: 54999,
-    category: 'tv&appliances',
-    ratings: 4.9,
+    category: 'electronics',
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df75a35',

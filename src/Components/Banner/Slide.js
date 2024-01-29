@@ -38,7 +38,7 @@ const Slide = () => {
           <img className='d-block w-100' src={banner6} alt='First slide' />
         </Carousel.Item> */}
       </Carousel>
-      <div>
+      <div className='mt-3'>
         <img className='d-block w-75 m-auto' src={bank} alt='First slide' />
       </div>
       {/* <div className='row'>

@@ -20,6 +20,7 @@ const Books = [
         author: 'Ajay K Pandey',
         genre: 'Fiction',
         format: 'paperback',
+        type: 'Fiction book',
       },
     ],
     productDetails: [
@@ -87,6 +88,7 @@ const Books = [
         author: 'Emma L. Archer',
         genre: 'Mystery',
         format: 'Paperback',
+        type: 'Mystery',
       },
     ],
     productDetails: [
@@ -152,6 +154,7 @@ const Books = [
         author: 'Jason A. Starlight',
         genre: 'Sci-Fi',
         format: 'Hardcover',
+        type: 'Fiction book',
       },
     ],
     productDetails: [
@@ -217,6 +220,7 @@ const Books = [
         author: 'Sudha Murthy',
         genre: 'Non-Fiction',
         format: 'Paperback',
+        type: 'Non-Fiction book',
       },
     ],
     productDetails: [
@@ -283,6 +287,7 @@ const Books = [
         author: 'Isabella Moonlight',
         genre: 'Fantasy',
         format: 'Paperback',
+        type: 'Fantasy book',
       },
     ],
     productDetails: [
@@ -334,7 +339,7 @@ const Books = [
     price: 330,
     cureted_price: 360,
     category: 'books',
-    ratings: 4.9,
+    ratings: 2.9,
     images: [
       {
         _id: '651d50b7e2b392999df759de',
@@ -348,6 +353,7 @@ const Books = [
         author: 'Alex Coder',
         genre: 'Technology',
         format: 'Hardcover',
+        type: 'Technology book',
       },
     ],
     productDetails: [
@@ -399,7 +405,7 @@ const Books = [
     price: 720,
     cureted_price: 750,
     category: 'books',
-    ratings: 4.6,
+    ratings: 3.6,
     images: [
       {
         _id: '651d50b7e2b392999df759df',
@@ -413,6 +419,7 @@ const Books = [
         author: 'Elena Tranquil',
         genre: 'Self-Help',
         format: 'Paperback',
+        type: 'Self-Help book',
       },
     ],
     productDetails: [
@@ -457,7 +464,6 @@ const Books = [
     ],
     sell: 20,
   },
-
   {
     _id: '64c37c823c03172a9facc067',
     id: 25,
@@ -465,7 +471,7 @@ const Books = [
     price: 2199,
     cureted_price: 3499,
     category: 'books',
-    ratings: 4.7,
+    ratings: 2.7,
     images: [
       {
         _id: '651d50b7e2b392999df759e0',
@@ -479,6 +485,7 @@ const Books = [
         author: 'Dr. Alan Quantum',
         genre: 'Science',
         format: 'Hardcover',
+        type: 'Science book',
       },
     ],
     productDetails: [
@@ -544,6 +551,7 @@ const Books = [
         author: 'Chef Isabella Gourmet',
         genre: 'Cooking',
         format: 'Hardcover',
+        type: 'Cooking book',
       },
     ],
     productDetails: [
@@ -610,6 +618,7 @@ const Books = [
         author: 'Dr. Celeste Astronomer',
         genre: 'Science',
         format: 'Paperback',
+        type: 'Science book',
       },
     ],
     productDetails: [
@@ -675,6 +684,7 @@ const Books = [
         author: 'Sudha Murthy',
         genre: "Children's Fiction",
         format: 'Hardcover',
+        type: 'Children Fiction book',
       },
     ],
     productDetails: [
@@ -726,7 +736,7 @@ const Books = [
     price: 499,
     cureted_price: 699,
     category: 'books',
-    ratings: 4.9,
+    ratings: 3.9,
     images: [
       {
         _id: '651d50b7e2b392999df759e5',
@@ -740,6 +750,7 @@ const Books = [
         author: 'Prof. A. Mathison',
         genre: 'Academic',
         format: 'Hardcover',
+        type: 'Academic book',
       },
     ],
     productDetails: [

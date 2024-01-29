@@ -12,7 +12,9 @@ const BestProductCard = (props) => {
             style={{ height: '9rem' }}
           />
         </div>
-        <span>{props.value.specificaton[0].type}</span>
+        <span className='fs-6 text-dark py-2'>
+          {props.value.specificaton[0].type}
+        </span>
         {/* <span>{props.value.productDetails[0].Collection}</span> */}
       </div>
     </>

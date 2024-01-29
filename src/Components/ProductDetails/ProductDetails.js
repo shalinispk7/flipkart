@@ -118,9 +118,9 @@ const ProductDetails = () => {
                       )}
                     </p>
                     {/* category  */}
-                    <p className='fw-normal fs-5 m-0'>
+                    {/* <p className='fw-normal fs-5 m-0'>
                       <span>Category : </span> {e.category}
-                    </p>
+                    </p> */}
                     {/* offer SECTION */}
                     <div className=' border mt-3'>
                       <h2 className='p-2 border-bottom  fs-5  capitalize fw-normal'>
@@ -216,7 +216,7 @@ const ProductDetails = () => {
                         className='fs-6'
                         style={{ padding: '12px', lineHeight: '27px' }}
                       >
-                        {e.decr}
+                        {e.features}
                       </p>
                     </div>
                   </div>
