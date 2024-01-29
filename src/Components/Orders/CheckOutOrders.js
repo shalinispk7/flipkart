@@ -71,84 +71,84 @@ const CheckOutOrder = () => {
         <div className='row'>
           {/* left side starts */}
           <div className='col-lg-8'>
-            {/* login starts*/}
-            <div>
-              {/* heading start */}
-              <div className='bg-primary gap-6 p-1 mt-3 px-3 text-white d-flex '>
-                <div>
-                  <h2 className='fs-5 fw-normal'>Login</h2>
-                </div>
+            {/* LOGIN starts*/}
+            <div className='shadow p-3 pb-2 mb-4 bg-white rounded d-flex gap-4'>
+              <div>
+                <p className='bg-light px-2 py-0 fs-5'>1.</p>
               </div>
-              {/* heading ends */}
-            </div>
-            {/* address details starts*/}
-            <div className='px-4'>
-              <p className='fs-5 fw-normal text-dark'>
-                {userInfo ? userInfo.displayName : 'UserName'}
-              </p>
-            </div>
-            {/* address details ends*/}
-            {/* delivery ends */}
-            {/* login starts*/}
-            <div>
-              {/* heading start */}
-              <div className='bg-primary gap-6 p-1 mt-3 px-3 text-white d-flex '>
-                <div>
-                  <h2 className='fs-5 fw-normal'>Delivery Address</h2>
-                </div>
+              <div>
+                <h2 className='fs-5 fw-bold text-secondary'>LOGIN</h2>
+                <p className='fs-5 fw-normal text-dark'>
+                  {userInfo ? userInfo.displayName : ' Hello,Guest'}
+                </p>
               </div>
-              {/* heading ends */}
             </div>
-            {/* address details starts*/}
-            <div className='px-4'>
-              <p className='fs-5 fw-normal text-dark'>
-                ShaliniPremKumar, Poiyerikarai, Namakkal-637001
-              </p>
+            {/* LOGIN ends */}
+            {/* DELIVERY starts */}
+            <div className='shadow p-3 pb-2 mb-4 bg-white rounded d-flex gap-4'>
+              <div>
+                <p className='bg-light px-2 py-0 fs-5'>2.</p>
+              </div>
+              <div>
+                <h2 className='fs-5 fw-bold text-secondary'>
+                  DELIVERY ADDRESS
+                </h2>
+                <p className='fs-5 fw-normal text-dark mb-0'>
+                  ShaliniPremKumar, Poiyerikarai, Namakkal
+                </p>
+                <p className='fs-5 fw-normal text-dark'>Pincode: 637001</p>
+              </div>
             </div>
-            {/* address details ends*/}
-            {/* delivery ends */}
-            {/* order summary */}
-            <div>
-              <div className='d-flex align-items-center bg-primary gap-6 p-1 px-3 mt-3'>
-                <div className=' d-flex flex-column align-items-start'>
-                  <h2 className='fs-5 fw-normal text-light'>Order Summary</h2>
+            {/* DELIVERY ends */}
+            {/* ORDER SUMMARY starts */}
+            <div className='shadow p-3 pb-2 mb-4 bg-white rounded '>
+              <div className='d-flex gap-4'>
+                <div>
+                  <p className='bg-light px-2 py-0 fs-5'>3.</p>
+                </div>
+                <div>
+                  <h2 className='fs-5 fw-bold text-secondary'>ORDER SUMMARY</h2>
                 </div>
               </div>
               <CartItems />
             </div>
-            {/* order summary */}
-
-            {/* payment option */}
-            <div>
-              <div className='d-flex align-items-center bg-primary mt-3 gap-6 p-1 px-3'>
-                <div className=' d-flex flex-column align-items-start'>
-                  <h2 className='fs-5 fw-normal text-light'>Payment Options</h2>
+            {/* ORDER SUMMARY ends */}
+            {/* PAYMENT OPTION starts */}
+            <div className='shadow p-3 pb-0 mb-4 bg-primary rounded '>
+              <div className='d-flex gap-4'>
+                <div>
+                  <p className='bg-light px-2 py-0 fs-5'>4.</p>
+                </div>
+                <div>
+                  <h2 className='fs-5 fw-bold text-light'>PAYMENT OPTION</h2>
                 </div>
               </div>
-              <div className='mt-3 ms-3'>
-                {userInfo ? (
-                  <button
-                    onClick={() => handlePayment()}
-                    className='text-primary fs-5 fw-normal  border border-primary px-4 py-1'
-                  >
-                    PayHere
-                  </button>
-                ) : (
-                  <button
-                    onClick={() => {
-                      dispatch(setCurrentPath(location.pathname))
-                      navigate('/login')
-                    }}
-                    className='text-primary fs-5 fw-normal  border border-primary px-4 py-1'
-                  >
-                    Login To Proceed
-                  </button>
-                )}
-              </div>
             </div>
-            {/* payment option */}
+            <div className='mt-3 ms-3'>
+              {userInfo ? (
+                <button
+                  onClick={() => handlePayment()}
+                  className='text-primary fs-5 fw-normal  border border-primary px-4 py-1'
+                >
+                  PayHere
+                </button>
+              ) : (
+                <button
+                  onClick={() => {
+                    dispatch(setCurrentPath(location.pathname))
+                    navigate('/login')
+                  }}
+                  className='text-primary fs-5 fw-normal  border border-primary px-4 py-1'
+                >
+                  Login To Proceed
+                </button>
+              )}
+            </div>
+
+            {/* PAYMENT OPTION ends */}
           </div>
           {/* left side ends */}
+
           {/* right side starts /payment portion*/}
 
           <div className='col-lg-4'>

@@ -18,9 +18,6 @@ const wishListSlice = createSlice({
           img: action.payload.images[0].url,
           stock: action.payload.stock,
           rating: action.payload.ratings,
-          count: prev[action.payload._id]?.count
-            ? prev[action.payload._id].count + 1
-            : 1,
         },
       }
     },

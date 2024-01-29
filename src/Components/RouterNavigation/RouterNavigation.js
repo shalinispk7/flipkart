@@ -9,6 +9,7 @@ import Cart from '../Cart/Cart'
 import CheckOutOrders from '../Orders/CheckOutOrders'
 import OrderSummary from '../OrderSummary/OrderSummary'
 import Login from '../Login/Login'
+import WishList from '../WishList/WishList'
 
 const RouterNavigation = () => {
   return (
@@ -23,6 +24,7 @@ const RouterNavigation = () => {
         <Route path='/cart' element={<Cart />} />
         <Route path='/checkout' element={<CheckOutOrders />} />
         <Route path='/orderSummary' element={<OrderSummary />} />
+        <Route path='/wishlist' element={<WishList />} />
       </Routes>
     </>
   )

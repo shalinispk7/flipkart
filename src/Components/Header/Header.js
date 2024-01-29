@@ -79,6 +79,15 @@ const Header = () => {
                 </Link>
               </div>
               <div className='col-lg-2'>
+                <Link to={'/wishlist'} className='text-decoration-none'>
+                  <div className='fw-bold fs-5 text-light'>
+                    {/* <img src={cart} className='pe-2' /> */}
+                    wishList
+                    <span> ()</span>
+                  </div>
+                </Link>
+              </div>
+              <div className='col-lg-2'>
                 <Link to={'/cart'} className='text-decoration-none'>
                   <div className='fw-bold fs-5 text-light'>
                     {/* <img src={cart} className='pe-2' /> */}

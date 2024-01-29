@@ -1,18 +1,20 @@
 import React, { useEffect, useState } from 'react'
 import Data from '../../Assets/data/Data'
 import { Link } from 'react-router-dom'
-import { Heart } from 'react-bootstrap-icons'
+import { Heart, HeartFill } from 'react-bootstrap-icons'
 import { useDispatch, useSelector } from 'react-redux'
 import { setSortBy } from '../../ReduxStore/filterSlice'
-import { addWishList } from '../../ReduxStore/wishListSlice'
+import { addWishList, removeWishList } from '../../ReduxStore/wishListSlice'
 
 const ProductPageCard = (props) => {
   const { rating, discount, sortBy } = useSelector((store) => store.filterStore)
+  const { wishList } = useSelector((store) => store.wishListStore)
+  console.log(wishList)
   const [sortingData, setSortingData] = useState([])
   const dispatch = useDispatch()
 
   const handleWishList = (v) => {
-    dispatch(addWishList(v))
+    wishList[v._id] ? dispatch(removeWishList(v._id)) : dispatch(addWishList(v))
   }
 
   const productData = Data.filter((e) => e.category === props.value)
@@ -90,11 +92,19 @@ const ProductPageCard = (props) => {
                       alt='...'
                     />
                   </Link>
-                  <Heart
-                    onClick={() => handleWishList(e)}
-                    className='fs-6 position-absolute'
-                    style={{ right: '1%', top: '2%' }}
-                  />
+                  {wishList[e._id] ? (
+                    <HeartFill
+                      className='text-danger fs-6 position-absolute'
+                      onClick={() => handleWishList(e)}
+                      style={{ right: '1%', top: '2%' }}
+                    />
+                  ) : (
+                    <Heart
+                      onClick={() => handleWishList(e)}
+                      className='fs-6 position-absolute'
+                      style={{ right: '1%', top: '2%' }}
+                    />
+                  )}
                 </div>
                 <Link
                   to={'/productDetails/' + e._id}
