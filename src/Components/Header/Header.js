@@ -5,7 +5,6 @@ import { setCurrentPath } from '../../ReduxStore/userSlice'
 import {
   Person,
   Inbox,
-  CaretDown,
   Cart,
   Heart,
   Power,
@@ -15,11 +14,10 @@ import {
   Search,
 } from 'react-bootstrap-icons'
 import Dropdown from 'react-bootstrap/Dropdown'
-import DropdownButton from 'react-bootstrap/DropdownButton'
 import SplitButton from 'react-bootstrap/SplitButton'
 import ButtonGroup from 'react-bootstrap/ButtonGroup'
 import { auth } from '../../utils/firebase'
-import { onAuthStateChanged, signOut } from 'firebase/auth'
+import { signOut } from 'firebase/auth'
 import { setUserInfo } from '../../ReduxStore/userSlice'
 import { emptyItems } from '../../ReduxStore/productSlice'
 import { setSearchText } from '../../ReduxStore/filterSlice'

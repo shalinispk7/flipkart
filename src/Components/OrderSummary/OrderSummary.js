@@ -9,7 +9,7 @@ const OrderSummary = () => {
   const [orderSummary, setOrderSummary] = useState(productsAdded)
   useEffect(() => {
     setOrderSummary(productsAdded)
-    dispatch(emptyItems({}))
+    dispatch(emptyItems())
   }, [])
   return (
     <>

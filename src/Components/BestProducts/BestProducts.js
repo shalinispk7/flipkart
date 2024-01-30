@@ -1,15 +1,11 @@
 import React from 'react'
-import electronics from '../../Assets/img/best-electronics-1.jpeg'
 import electronic from '../../Assets/img/download.jpeg'
 import books from '../../Assets/img/books.jpeg'
 import phone from '../../Assets/img/phone.jpeg'
-
-import { Link, useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import BestProductCard from './BestProductCard'
-import Grocery from '../../Assets/data/Grocery'
 import Books from '../../Assets/data/Books'
 import Mobile from '../../Assets/data/Mobile'
-import HomeAndFurniture from '../../Assets/data/Home&Furniture'
 import Electronics from '../../Assets/data/Eletronics'
 
 const BestProducts = () => {

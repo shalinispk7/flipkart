@@ -17,6 +17,7 @@ const CartItems = () => {
     dispatch(decreaseItemCount(vl))
   }
   const increaseItem = (vl) => {
+    // console.log(vl) vl===clickable product Id
     dispatch(increaseItemCount(vl))
   }
   return (

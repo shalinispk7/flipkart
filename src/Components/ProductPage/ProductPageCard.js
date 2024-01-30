@@ -3,7 +3,7 @@ import Data from '../../Assets/data/Data'
 import { Link } from 'react-router-dom'
 import { Heart, HeartFill } from 'react-bootstrap-icons'
 import { useDispatch, useSelector } from 'react-redux'
-import { setSortBy } from '../../ReduxStore/filterSlice'
+import { setSortBy, setSearchText } from '../../ReduxStore/filterSlice'
 import { addWishList, removeWishList } from '../../ReduxStore/wishListSlice'
 
 const ProductPageCard = (props) => {
@@ -70,6 +70,7 @@ const ProductPageCard = (props) => {
 
   useEffect(() => {
     dispatch(setSortBy(''))
+    dispatch(setSearchText(''))
     sortingCalc()
   }, [props.value])
 
