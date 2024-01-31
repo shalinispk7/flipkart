@@ -12,7 +12,7 @@ const BestProducts = () => {
   return (
     <div className='container'>
       <Link to={'/productPage/electronics'} className='text-decoration-none'>
-        <div className='d-flex row'>
+        <div className='d-flex row shadow-sm p-3 mb-3 bg-white rounded'>
           <div className='w-5 h-5 col-lg-3'>
             <h2 className='text-center fs-4 text-black'>Best of Electronics</h2>
             <img src={electronic} />
@@ -26,7 +26,7 @@ const BestProducts = () => {
         </div>
       </Link>
       <Link to={'/productPage/books'} className='text-decoration-none'>
-        <div className='d-flex row'>
+        <div className='d-flex row shadow-sm p-3 mb-3  bg-white rounded'>
           <div className='w-5 h-5 col-lg-3'>
             <h2 className='text-center fs-4 text-black'>Best of Books</h2>
             <img src={books} />
@@ -40,7 +40,7 @@ const BestProducts = () => {
         </div>
       </Link>
       <Link to={'/productPage/mobile'} className='text-decoration-none'>
-        <div className='d-flex row'>
+        <div className='d-flex row shadow-sm p-3 mb-3 bg-white rounded'>
           <div className='w-5 h-5 col-lg-3'>
             <h2 className='text-center fs-4 text-black'>
               Best of mobile phones

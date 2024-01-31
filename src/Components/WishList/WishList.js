@@ -46,37 +46,30 @@ const WishList = () => {
                 </p>
               </div>
             </div>
-            <div className='shadow-sm p-3 mb-5 bg-white rounded'>
-              <div className='d-flex gap-3'>
-                <Person className='fs-3 text-primary' />
-                <div>
-                  <h2 className='fs-5 fw-bold mb-3 text-secondary'>
-                    Account Settings
-                  </h2>
-                  <p className='mb-1 fs-5 fw-normal'>Personal Information</p>
-                  <p className='fs-5 fw-normal'>Manage Address</p>
+            {userInfo && (
+              <div className='shadow-sm p-3 mb-5 bg-white rounded'>
+                <div className='d-flex gap-3'>
+                  <Person className='fs-3 text-primary' />
+                  <div>
+                    <h2 className='fs-5 fw-bold mb-3 text-secondary'>
+                      Account Settings
+                    </h2>
+                    <p className='mb-1 fs-5 fw-normal'>Personal Information</p>
+                    <p className='fs-5 fw-normal'>Manage Address</p>
+                  </div>
+                </div>
+                <div
+                  className='d-flex gap-3 align-items-center border'
+                  style={{ cursor: 'pointer' }}
+                  onClick={() => {
+                    handleLogout()
+                  }}
+                >
+                  <Power className='fs-3 text-primary fw-bold' />
+                  <h2>Logout</h2>
                 </div>
               </div>
-              <div
-                className='d-flex gap-3 align-items-center border'
-                style={{ cursor: 'pointer' }}
-                onClick={() => {
-                  handleLogout()
-                }}
-              >
-                <Power className='fs-3 text-primary fw-bold' />
-                <h2>Logout</h2>
-              </div>
-              {/* <button
-                className='fw-bold fs-5 text-light border-0 px-3 bg-primary'
-                onClick={() => {
-                  handleLogout()
-                }}
-              >
-                <Power className='pe-2 fs-3' />
-                logout
-              </button> */}
-            </div>
+            )}
           </div>
           <div className='col-lg-8 shadow-sm p-3 mb-5 bg-white rounded'>
             <h2 className='fw-normal fs-5 text-dark mb-3 '>

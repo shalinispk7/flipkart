@@ -3358,7 +3358,7 @@ const Data = [
       {
         screenSize: '65 inches',
         resolution: '4K Ultra HD',
-        type: 'Android TV, Voice Assistant, Streaming Apps',
+        type: 'Android TV, Voice Assistant',
       },
     ],
     productDetails: [

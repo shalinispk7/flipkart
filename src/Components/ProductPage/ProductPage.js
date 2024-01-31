@@ -30,23 +30,23 @@ const ProductPage = () => {
             <div className='col-lg-10 d-flex flex-wrap bg-light'>
               {/* sorting */}
               <div className='d-flex mb-2 col-lg-12'>
-                <h2 className='fw-normal fs-3 pe-4'>Sort By:</h2>
+                <h2 className='fw-normal fs-4 pe-4'>Sort By:</h2>
                 <h2
-                  className='fw-normal fs-3 pe-4'
+                  className='fw-normal fs-4 pe-4'
                   id='popular'
                   onClick={(e) => handleSortBy(e)}
                 >
                   Popularity
                 </h2>
                 <h2
-                  className='fw-normal fs-3 pe-4'
+                  className='fw-normal fs-4 pe-4'
                   id='low2high'
                   onClick={(e) => handleSortBy(e)}
                 >
                   Price-Low to High
                 </h2>
                 <h2
-                  className='fw-normal fs-3'
+                  className='fw-normal fs-4'
                   id='high2low'
                   onClick={(e) => handleSortBy(e)}
                 >

@@ -124,7 +124,15 @@ const ProductPageCard = (props) => {
                           : e.title}
                       </h2>
 
-                      <div className='d-flex gap-1 align-items-center justify-content-center fs-6 bg-success text-white rounded-2 py-0 px-2'>
+                      <div
+                        className={`d-flex gap-1 align-items-center justify-content-center fs-6  text-white rounded-2 py-0 px-2 ${
+                          e.ratings >= 4
+                            ? 'bg-success'
+                            : e.ratings >= 3
+                            ? 'bg-warning'
+                            : 'bg-danger'
+                        }`}
+                      >
                         <span
                           className='fw-normal'
                           style={{ fontSize: '1rem' }}

@@ -154,17 +154,22 @@ const Header = () => {
                         <Box2Heart className='pe-1 fs-5' />
                         <h2 className='fs-6 ps-2 fw-normal'>Coupons</h2>
                       </Dropdown.Item>
-                      <Dropdown.Divider />
-                      <Dropdown.Item
-                        eventKey='4'
-                        className='d-flex align-items-center'
-                        onClick={() => {
-                          handleLogout()
-                        }}
-                      >
-                        <Power className='pe-1 fs-4' />
-                        <h2 className='fs-6 ps-2 fw-normal'> Logout</h2>
-                      </Dropdown.Item>
+
+                      {userInfo && (
+                        <>
+                          <Dropdown.Divider />
+                          <Dropdown.Item
+                            eventKey='4'
+                            className='d-flex align-items-center'
+                            onClick={() => {
+                              handleLogout()
+                            }}
+                          >
+                            <Power className='pe-1 fs-4' />
+                            <h2 className='fs-6 ps-2 fw-normal'> Logout</h2>
+                          </Dropdown.Item>
+                        </>
+                      )}
                     </DropdownType>
                   ))}
                 </div>

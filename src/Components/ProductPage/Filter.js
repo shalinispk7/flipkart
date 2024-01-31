@@ -6,6 +6,7 @@ import {
   setDiscount,
   setRating,
 } from '../../ReduxStore/filterSlice'
+import { Star, StarFill } from 'react-bootstrap-icons'
 
 const Filter = (props) => {
   const dispatch = useDispatch()
@@ -23,9 +24,9 @@ const Filter = (props) => {
   return (
     <section>
       <div>
-        <h2>FILTERS</h2>
-        <h2 className='text-black fw-normal fs-6'>CUSTOMER RATINGS</h2>
-        <div>
+        <h2 className='fw-normal fs-4'>FILTERS</h2>
+        <h2 className='fw-normal fs-6'>CUSTOMER RATINGS</h2>
+        <div className='d-flex align-items-baseline'>
           <input
             type='checkbox'
             id='topping'
@@ -34,9 +35,11 @@ const Filter = (props) => {
             className='me-2'
             onChange={(e) => handleRating(e)}
           />
-          4 & above
+          <h2 className='fw-normal fs-6 d-flex align-items-center'>
+            4 <StarFill className='fw-normal fs-6 mx-1' /> & above
+          </h2>
         </div>
-        <div>
+        <div className='d-flex align-items-baseline'>
           <input
             type='checkbox'
             id='topping'
@@ -45,9 +48,11 @@ const Filter = (props) => {
             className='me-2'
             onChange={(e) => handleRating(e)}
           />
-          3 & above
+          <h2 className='fw-normal fs-6 d-flex align-items-center'>
+            3 <StarFill className='fw-normal fs-6 mx-1' /> & above
+          </h2>
         </div>
-        <div>
+        <div className='d-flex align-items-baseline'>
           <input
             type='checkbox'
             id='topping'
@@ -56,9 +61,11 @@ const Filter = (props) => {
             className='me-2'
             onChange={(e) => handleRating(e)}
           />
-          2 & above
+          <h2 className='fw-normal fs-6 d-flex align-items-center'>
+            2 <StarFill className='fw-normal fs-6 mx-1' /> & above
+          </h2>
         </div>
-        <div>
+        <div className='d-flex align-items-baseline'>
           <input
             type='checkbox'
             id='topping'
@@ -67,7 +74,9 @@ const Filter = (props) => {
             className='me-2'
             onChange={(e) => handleRating(e)}
           />
-          1 & above
+          <h2 className='fw-normal fs-6 d-flex align-items-center'>
+            1 <StarFill className='fw-normal fs-6 mx-1' /> & above
+          </h2>
         </div>
       </div>
       <div className='mt-5'>
