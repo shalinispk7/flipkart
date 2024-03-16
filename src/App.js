@@ -1,4 +1,4 @@
-import { Provider } from 'react-redux'
+import { Provider, useDispatch } from 'react-redux'
 import Body from './Components/Body/Body'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import appStore from './ReduxStore/appStore'

@@ -35,30 +35,10 @@ const Slide = () => {
         <Carousel.Item>
           <img className='d-block w-100' src={banner3} alt='First slide' />
         </Carousel.Item>
-        {/* <Carousel.Item>
-          <img className='d-block w-100' src={banner6} alt='First slide' />
-        </Carousel.Item> */}
       </Carousel>
       <div className='my-3'>
         <img className='d-block w-75 m-auto' src={bank} alt='First slide' />
       </div>
-      {/* <div className='row'>
-        <img
-          className='d-block w-25 m-auto col-sm'
-          src={col1}
-          alt='First slide'
-        />
-        <img
-          className='d-block w-25 m-auto col-sm'
-          src={col2}
-          alt='First slide'
-        />
-        <img
-          className='d-block w-25 m-auto col-sm'
-          src={col3}
-          alt='First slide'
-        />
-      </div> */}
     </div>
   )
 }

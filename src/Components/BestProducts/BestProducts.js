@@ -7,8 +7,10 @@ import BestProductCard from './BestProductCard'
 import Books from '../../Assets/data/Books'
 import Mobile from '../../Assets/data/Mobile'
 import Electronics from '../../Assets/data/Eletronics'
+import { useSelector } from 'react-redux'
 
 const BestProducts = () => {
+  const { windowWidth } = useSelector((store) => store.userStore)
   return (
     <div className='container'>
       <Link to={'/productPage/electronics'} className='text-decoration-none'>

@@ -5,6 +5,7 @@ const userSlice = createSlice({
   initialState: {
     userInfo: '',
     currentPath: '/',
+    windowWidth: window.innerWidth,
   },
   reducers: {
     setUserInfo: (state, action) => {
@@ -13,8 +14,11 @@ const userSlice = createSlice({
     setCurrentPath: (state, action) => {
       state.currentPath = action.payload
     },
+    setWindowWidth: (state, action) => {
+      state.windowWidth = action.payload
+    },
   },
 })
 
-export const { setUserInfo, setCurrentPath } = userSlice.actions
+export const { setUserInfo, setCurrentPath, setWindowWidth } = userSlice.actions
 export default userSlice.reducer
